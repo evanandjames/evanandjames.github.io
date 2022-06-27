@@ -3212,9 +3212,17 @@ input, select, textarea {
 		}
 	}
 
+	@media only all and (max-width: 1600px) {
+		.wrapper2{
+			max-height: 40rem;
+		}
+		#EandJtext{
+			display: none;
+		}
+	}
+
 	.wrapper2 {
-		height: 55vw;
-		max-height: 75rem;
+		height: 40vw;
 		padding: 5rem;
 	}
 
