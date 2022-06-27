@@ -3216,6 +3216,9 @@ input, select, textarea {
 		.wrapper2{
 			max-height: 40rem;
 		}
+	}
+
+	@media only all and (max-width: 600px) {
 		#EandJtext{
 			display: none;
 		}
