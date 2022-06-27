@@ -3214,6 +3214,10 @@ input, select, textarea {
 			}
 
 /* Wrapper */
+	.wrapper2 {
+		height: 40vw;
+		padding: 5rem;
+	}
 
 	@media only all and (max-width: 1300px) {
 		#EandJ{
@@ -3231,11 +3235,12 @@ input, select, textarea {
 		#EandJtext{
 			display: none;
 		}
-	}
-
-	.wrapper2 {
-		height: 40vw;
-		padding: 5rem;
+		.wrapper2 {
+			height: 55vw;
+		}
+		#upcoming {
+			font-size:large;
+		}
 	}
 
 	.wrapper {
