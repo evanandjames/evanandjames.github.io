@@ -10,6 +10,11 @@
 	font-family: Lora;
 	src: url(../../Lora/static/Lora-Regular.ttf);
  }
+ 
+ @font-face {
+	font-family: GreatVibes;
+	src: url(../../Great_Vibes/GreatVibes-Regular.ttf);
+ }
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -28,6 +33,10 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: Lora;
 	vertical-align: baseline;}
+
+#titletitle {
+	font: GreatVibes;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
