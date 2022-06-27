@@ -3206,6 +3206,12 @@ input, select, textarea {
 
 /* Wrapper */
 
+	.wrapper2 {
+		height: 55vw;
+		max-height: 75rem;
+		padding: 5rem;
+	}
+
 	.wrapper {
 		position: relative;
 	}
@@ -3245,15 +3251,15 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #131357;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #060633;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #131357;
 		}
 
 		.wrapper.style2-alt {
@@ -3261,11 +3267,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #0a2970;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #ff0000;
 		}
 
 		.wrapper.fullscreen {
@@ -3877,7 +3883,7 @@ input, select, textarea {
 
 /* Intro */
 	#intro {
-		background-image: url("../../images/basement.jpg");
+		background-image: url("../../images/basement-bg.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100%;
