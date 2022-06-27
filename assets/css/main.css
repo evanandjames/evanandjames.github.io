@@ -6,6 +6,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+@font-face {
+	font-family: Lora;
+	src: url(../../Lora/static/Lora-Regular.ttf);
+ }
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -21,7 +26,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: Lora;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -98,7 +103,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #010424;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,7 +121,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Lora;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -285,7 +290,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.05);
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
-		font-family: "Courier New", monospace;
+		font-family: Lora;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -293,7 +298,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: Lora;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1915,7 +1920,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #010424 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2361,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #010424;
 		}
 
 		select:focus::-ms-value {
@@ -2525,7 +2530,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #010424;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3014,7 +3019,7 @@ input, select, textarea {
 
 			.spotlights > section > .image img {
 				border-radius: 0;
-				display: block;
+				/* display: block; */
 			}
 
 			.spotlights > section > .image:before {
@@ -3524,7 +3529,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #010424;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3871,13 +3876,11 @@ input, select, textarea {
 		}
 
 /* Intro */
-
 	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("../../images/basement.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 100%;
 	}
 
 		#intro p {
