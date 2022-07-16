@@ -30,7 +30,7 @@
                 { name: "St. James Lutheran Church Farmers Market",
                   where: "St. James, NY",
                   when: new Date(2022, 7-1, 23, 0, 0, 0, 0),
-                  time: "10:30-12:30pm",
+                  time: "10:30am-12:30pm",
                   link: "https://stjameslutheranchurch.com/",
                   image: "vegetables.jpg"
                 },
