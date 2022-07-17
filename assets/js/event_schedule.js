@@ -3,15 +3,7 @@
     // new Date(year, month, day, hours, minutes, seconds, milliseconds)
     //                 ^ 0:jan
 
-    events = [  { name: "Eastern Front Brewing Co.",
-                  where: "Mattituck, NY",
-                  when: new Date(2022, 7-1, 17, 0, 0, 0, 0),
-                  time: "4:30-6:30pm",
-                  link: "https://www.instagram.com/easternfrontbrewing/?hl=en",
-                  image: "brewing_co.jpg"
-                },
-
-                { name: "Garden City Hotel, Patio Bar",
+    events = [  { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
                   when: new Date(2022, 7-1, 21, 0, 0, 0, 0),
                   time: "7-10pm",
