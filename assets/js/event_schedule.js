@@ -5,27 +5,19 @@
 
     events = [  { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
-                  when: new Date(2022, 7-1, 21, 0, 0, 0, 0),
+                  when: new Date(2022, 8-1, 11, 0, 0, 0, 0),
                   time: "7-10pm",
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
                 },
 
-                { name: "Sound Avenue Bistro",
-                  where: "Riverhead, NY",
-                  when: new Date(2022, 7-1, 22, 0, 0, 0, 0),
-                  time: "5-8pm",
-                  link: "https://soundbistroriverhead.com/",
-                  image: "sound_ave_bistro.jpg"
-                },
-
-                { name: "St. James Lutheran Church Farmers Market",
+                /*{ name: "St. James Lutheran Church Farmers Market",
                   where: "St. James, NY",
                   when: new Date(2022, 7-1, 23, 0, 0, 0, 0),
                   time: "10:30am-12:30pm",
                   link: "https://stjameslutheranchurch.com/",
                   image: "vegetables.jpg"
-                },
+                },*/
 
                 { name: "Eastern Front Brewing Co.",
                   where: "Mattituck, NY",
@@ -33,6 +25,22 @@
                   time: "4:30-6:30pm",
                   link: "https://www.instagram.com/easternfrontbrewing/?hl=en",
                   image: "brewing_co.jpg"
+                },
+
+                { name: "Mario's Restaurant",
+                  where: "East Setauket, NY",
+                  when: new Date(2022, 9-1, 2, 0, 0, 0, 0),
+                  time: "7-10pm",
+                  link: "http://www.mariossetauket.com/",
+                  image: "marios.jpg"
+                },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, 9-1, 10, 0, 0, 0, 0),
+                  time: "5-8pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
                 }
 
                 ];
