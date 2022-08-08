@@ -10,6 +10,14 @@
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
                 },
+                
+                { name: "Garden City Hotel, Patio Bar",
+                  where: "Garden City, NY",
+                  when: new Date(2022, 8-1, 18, 0, 0, 0, 0),
+                  time: "7-10pm",
+                  link: "https://www.gardencityhotel.com/",
+                  image: "garden_city_hotel.jpg"
+                },
 
                 /*{ name: "St. James Lutheran Church Farmers Market",
                   where: "St. James, NY",
@@ -26,6 +34,14 @@
                   link: "https://www.instagram.com/easternfrontbrewing/?hl=en",
                   image: "brewing_co.jpg"
                 },
+                
+                { name: "Garden City Hotel, Patio Bar",
+                  where: "Garden City, NY",
+                  when: new Date(2022, 8-1, 26, 0, 0, 0, 0),
+                  time: "7-10pm",
+                  link: "https://www.gardencityhotel.com/",
+                  image: "garden_city_hotel.jpg"
+                },
 
                 { name: "Mario's Restaurant",
                   where: "East Setauket, NY",
@@ -33,6 +49,14 @@
                   time: "7-10pm",
                   link: "http://www.mariossetauket.com/",
                   image: "marios.jpg"
+                },
+                
+                { name: "Garden City Hotel, Patio Bar",
+                  where: "Garden City, NY",
+                  when: new Date(2022, 9-1, 3, 0, 0, 0, 0),
+                  time: "7-10pm",
+                  link: "https://www.gardencityhotel.com/",
+                  image: "garden_city_hotel.jpg"
                 },
 
                 { name: "Sound Avenue Bistro",
