@@ -26,14 +26,22 @@
                   link: "https://stjameslutheranchurch.com/",
                   image: "vegetables.jpg"
                 },*/
+                
+                { name: "Prost Grill & Garten",
+                  where: "Garden City, NY",
+                  when: new Date(2022, 8-1, 19, 0, 0, 0, 0),
+                  time: "7:30-10:30pm",
+                  link: "https://www.prostgrill.com/",
+                  image: "prost_grill.jpg"
+                },
 
-                { name: "Eastern Front Brewing Co.",
+                /*{ name: "Eastern Front Brewing Co.",
                   where: "Mattituck, NY",
                   when: new Date(2022, 8-1, 20, 0, 0, 0, 0),
                   time: "4:30-6:30pm",
                   link: "https://www.instagram.com/easternfrontbrewing/?hl=en",
                   image: "brewing_co.jpg"
-                },
+                },*/
                 
                 { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
@@ -42,7 +50,6 @@
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
                 },
-
                 { name: "Mario's Restaurant",
                   where: "East Setauket, NY",
                   when: new Date(2022, 9-1, 2, 0, 0, 0, 0),
@@ -63,6 +70,14 @@
                   where: "Riverhead, NY",
                   when: new Date(2022, 9-1, 10, 0, 0, 0, 0),
                   time: "5-8pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, 9-1, 18, 0, 0, 0, 0),
+                  time: "2-5pm",
                   link: "https://soundbistroriverhead.com/",
                   image: "sound_ave_bistro.jpg"
                 }
