@@ -50,6 +50,7 @@
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
                 },
+                
                 { name: "Mario's Restaurant",
                   where: "East Setauket, NY",
                   when: new Date(2022, 9-1, 2, 0, 0, 0, 0),
@@ -99,7 +100,7 @@
                         <p>${events[i].when.toDateString().substring(4, 10)}, ${events[i].time}.</p>
                     </div>
                 </div>
-                </section>;
+                </section>&emsp;
             `;
         }
     }
