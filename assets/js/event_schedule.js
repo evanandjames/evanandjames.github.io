@@ -5,14 +5,6 @@
 
     events = [  { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
-                  when: new Date(2022, 8-1, 11, 0, 0, 0, 0),
-                  time: "7-10pm",
-                  link: "https://www.gardencityhotel.com/",
-                  image: "garden_city_hotel.jpg"
-                },
-                
-                { name: "Garden City Hotel, Patio Bar",
-                  where: "Garden City, NY",
                   when: new Date(2022, 8-1, 18, 0, 0, 0, 0),
                   time: "7-10pm",
                   link: "https://www.gardencityhotel.com/",
@@ -49,6 +41,14 @@
                   time: "7-10pm",
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
+                },
+
+                { name: "Mickey's Ice Cream Shop",
+                  where: "St James, NY",
+                  when: new Date(2022, 8-1, 29, 0, 0, 0, 0),
+                  time: "7:30-9pm",
+                  link: "https://www.mickeys-icecream.com/",
+                  image: "mickeys_ice_cream.png"
                 },
                 
                 { name: "Mario's Restaurant",
