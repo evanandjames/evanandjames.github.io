@@ -1,11 +1,24 @@
 
 (function($) {
-    // new Date(year, month, day, hours, minutes, seconds, milliseconds)
-    //                 ^ 0:jan
+
+    const Month = {
+      Jan: 0,
+      Feb: 1,
+      Mar: 2,
+      Apr: 3,
+      May: 4,
+      Jun: 5,
+      Jul: 6,
+      Aug: 7,
+      Sep: 8,
+      Oct: 9,
+      Nov: 10,
+      Dec: 11,
+    }
 
     events = [  { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
-                  when: new Date(2022, 8-1, 18, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Aug, 18, 0, 0, 0, 0),
                   time: "7-10pm",
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
@@ -21,7 +34,7 @@
                 
                 { name: "Prost Grill & Garten",
                   where: "Garden City, NY",
-                  when: new Date(2022, 8-1, 19, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Aug, 19, 0, 0, 0, 0),
                   time: "7:30-10:30pm",
                   link: "https://www.prostgrill.com/",
                   image: "prost_grill.jpg"
@@ -29,7 +42,7 @@
 
                 /*{ name: "Eastern Front Brewing Co.",
                   where: "Mattituck, NY",
-                  when: new Date(2022, 8-1, 20, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Aug, 20, 0, 0, 0, 0),
                   time: "4:30-6:30pm",
                   link: "https://www.instagram.com/easternfrontbrewing/?hl=en",
                   image: "brewing_co.jpg"
@@ -37,7 +50,7 @@
                 
                 { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
-                  when: new Date(2022, 8-1, 26, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Aug, 26, 0, 0, 0, 0),
                   time: "7-10pm",
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
@@ -45,7 +58,7 @@
 
                 { name: "Mickey's Ice Cream Shop",
                   where: "St James, NY",
-                  when: new Date(2022, 8-1, 29, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Aug, 29, 0, 0, 0, 0),
                   time: "7:30-9pm",
                   link: "https://www.mickeys-icecream.com/",
                   image: "mickeys_ice_cream.png"
@@ -53,7 +66,7 @@
                 
                 { name: "Mario's Restaurant",
                   where: "East Setauket, NY",
-                  when: new Date(2022, 9-1, 2, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Sep, 2, 0, 0, 0, 0),
                   time: "7-10pm",
                   link: "http://www.mariossetauket.com/",
                   image: "marios.jpg"
@@ -61,7 +74,7 @@
                 
                 { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
-                  when: new Date(2022, 9-1, 3, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Sep, 3, 0, 0, 0, 0),
                   time: "7-10pm",
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
@@ -69,15 +82,23 @@
 
                 { name: "Sound Avenue Bistro",
                   where: "Riverhead, NY",
-                  when: new Date(2022, 9-1, 10, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Sep, 10, 0, 0, 0, 0),
                   time: "5-8pm",
                   link: "https://soundbistroriverhead.com/",
                   image: "sound_ave_bistro.jpg"
                 },
 
+                { name: "Sachem Public Library",
+                  where: "Holbrook, NY",
+                  when: new Date(2022, Month.Sep, 16, 0, 0, 0, 0),
+                  time: "6:30-8pm",
+                  link: "https://www.sachemlibrary.org/",
+                  image: "sachem_lib.jpg"
+                },
+
                 { name: "Sound Avenue Bistro",
                   where: "Riverhead, NY",
-                  when: new Date(2022, 9-1, 18, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Sep, 18, 0, 0, 0, 0),
                   time: "2-5pm",
                   link: "https://soundbistroriverhead.com/",
                   image: "sound_ave_bistro.jpg"
