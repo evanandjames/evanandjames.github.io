@@ -79,10 +79,18 @@
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
                 },
+                
+                { name: "Garden City Hotel, Patio Bar",
+                  where: "Garden City, NY",
+                  when: new Date(2022, Month.Sep, 8, 0, 0, 0, 0),
+                  time: "7-10pm",
+                  link: "https://www.gardencityhotel.com/",
+                  image: "garden_city_hotel.jpg"
+                },
 
                 { name: "Sound Avenue Bistro",
                   where: "Riverhead, NY",
-                  when: new Date(2022, Month.Sep, 10, 0, 0, 0, 0),
+                  when: new Date(2022, Month.Sep, 9, 0, 0, 0, 0),
                   time: "5-8pm",
                   link: "https://soundbistroriverhead.com/",
                   image: "sound_ave_bistro.jpg"
@@ -102,6 +110,14 @@
                   time: "2-5pm",
                   link: "https://soundbistroriverhead.com/",
                   image: "sound_ave_bistro.jpg"
+                },
+                
+                { name: "Garden City Hotel, Patio Bar",
+                  where: "Garden City, NY",
+                  when: new Date(2022, Month.Sep, 23, 0, 0, 0, 0),
+                  time: "7-10pm",
+                  link: "https://www.gardencityhotel.com/",
+                  image: "garden_city_hotel.jpg"
                 }
 
                 ];
