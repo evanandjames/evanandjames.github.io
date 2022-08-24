@@ -64,20 +64,20 @@
                   image: "mickeys_ice_cream.png"
                 },
                 
-                { name: "Mario's Restaurant",
-                  where: "East Setauket, NY",
-                  when: new Date(2022, Month.Sep, 2, 0, 0, 0, 0),
-                  time: "7-10pm",
-                  link: "http://www.mariossetauket.com/",
-                  image: "marios.jpg"
-                },
-                
                 { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
                   when: new Date(2022, Month.Sep, 1, 0, 0, 0, 0),
                   time: "7-10pm",
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
+                },
+                
+                { name: "Mario's Restaurant",
+                  where: "East Setauket, NY",
+                  when: new Date(2022, Month.Sep, 2, 0, 0, 0, 0),
+                  time: "7-10pm",
+                  link: "http://www.mariossetauket.com/",
+                  image: "marios.jpg"
                 },
                 
                 { name: "Garden City Hotel, Patio Bar",
