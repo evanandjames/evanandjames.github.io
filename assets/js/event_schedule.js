@@ -95,6 +95,14 @@
                   link: "https://soundbistroriverhead.com/",
                   image: "sound_ave_bistro.jpg"
                 },
+                
+                { name: "Prost Grill & Garten",
+                  where: "Garden City, NY",
+                  when: new Date(2022, Month.Sep, 10, 0, 0, 0, 0),
+                  time: "7:30-10:30pm",
+                  link: "https://www.prostgrill.com/",
+                  image: "prost_grill.jpg"
+                },
 
                 { name: "Sachem Public Library",
                   where: "Holbrook, NY",
