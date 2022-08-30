@@ -83,7 +83,7 @@
                 { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
                   when: new Date(2022, Month.Sep, 8, 0, 0, 0, 0),
-                  time: "7-10pm",
+                  time: "6-9pm",
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
                 },
