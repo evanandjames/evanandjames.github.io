@@ -79,6 +79,14 @@
                   link: "http://www.mariossetauket.com/",
                   image: "marios.jpg"
                 },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Sep, 4, 0, 0, 0, 0),
+                  time: "1-4pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
                 
                 { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
