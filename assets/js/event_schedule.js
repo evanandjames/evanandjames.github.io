@@ -134,7 +134,15 @@
                   time: "7-10pm",
                   link: "https://www.gardencityhotel.com/",
                   image: "garden_city_hotel.jpg"
-                }
+                },
+                
+                { name: "Prost Grill & Garten",
+                  where: "Garden City, NY",
+                  when: new Date(2022, Month.Sep, 24, 0, 0, 0, 0),
+                  time: "7:30-10:30pm",
+                  link: "https://www.prostgrill.com/",
+                  image: "prost_grill.jpg"
+                },
 
                 ];
 
