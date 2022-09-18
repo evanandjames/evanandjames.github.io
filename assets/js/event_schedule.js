@@ -143,6 +143,14 @@
                   link: "https://www.prostgrill.com/",
                   image: "prost_grill.jpg"
                 },
+                
+                { name: "Middle Country Public Library",
+                  where: "Centereach, NY",
+                  when: new Date(2023, Month.Jan, 13, 0, 0, 0, 0),
+                  time: "7-8:30pm",
+                  link: "https://www.mcplibrary.org/",
+                  image: "mcplibrary.jpg"
+                }
 
                 ];
 
