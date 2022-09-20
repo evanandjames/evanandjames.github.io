@@ -143,6 +143,46 @@
                   link: "https://www.prostgrill.com/",
                   image: "prost_grill.jpg"
                 },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Oct, 8, 0, 0, 0, 0),
+                  time: "1-4pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Oct, 15, 0, 0, 0, 0),
+                  time: "1-4pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
+
+                { name: "Sachem Public Library (Oktoberfest)",
+                  where: "Holbrook, NY",
+                  when: new Date(2022, Month.Nov, 1, 0, 0, 0, 0),
+                  time: "11am-12pm",
+                  link: "https://www.sachemlibrary.org/",
+                  image: "sachem_lib.jpg"
+                },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Nov, 5, 0, 0, 0, 0),
+                  time: "5-8pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
+                
+                { name: "Mario's Restaurant",
+                  where: "East Setauket, NY",
+                  when: new Date(2022, Month.Dec, 22, 0, 0, 0, 0),
+                  time: "7-10pm",
+                  link: "http://www.mariossetauket.com/",
+                  image: "marios.jpg"
+                },
                 
                 { name: "Middle Country Public Library",
                   where: "Centereach, NY",
