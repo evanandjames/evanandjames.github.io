@@ -143,6 +143,14 @@
                   link: "https://www.prostgrill.com/",
                   image: "prost_grill.jpg"
                 },
+                
+                { name: "Prost Grill & Garten",
+                  where: "Garden City, NY",
+                  when: new Date(2022, Month.Sep, 30, 0, 0, 0, 0),
+                  time: "7:30-10:30pm",
+                  link: "https://www.prostgrill.com/",
+                  image: "prost_grill.jpg"
+                },
 
                 { name: "Sachem Public Library (Oktoberfest)",
                   where: "Holbrook, NY",
@@ -150,6 +158,14 @@
                   time: "11am-12pm",
                   link: "https://www.sachemlibrary.org/",
                   image: "sachem_lib.jpg"
+                },
+                
+                { name: "Prost Grill & Garten",
+                  where: "Garden City, NY",
+                  when: new Date(2022, Month.Oct, 7, 0, 0, 0, 0),
+                  time: "7:30-10:30pm",
+                  link: "https://www.prostgrill.com/",
+                  image: "prost_grill.jpg"
                 },
 
                 { name: "Sound Avenue Bistro",
@@ -166,6 +182,22 @@
                   time: "1-4pm",
                   link: "https://soundbistroriverhead.com/",
                   image: "sound_ave_bistro.jpg"
+                },
+
+                { name: "Mickey's Ice Cream Shop",
+                  where: "St James, NY",
+                  when: new Date(2022, Month.Oct, 16, 0, 0, 0, 0),
+                  time: "3:30-5pm",
+                  link: "https://www.mickeys-icecream.com/",
+                  image: "mickeys_ice_cream.png"
+                },
+                
+                { name: "Prost Grill & Garten",
+                  where: "Garden City, NY",
+                  when: new Date(2022, Month.Oct, 22, 0, 0, 0, 0),
+                  time: "7:30-10:30pm",
+                  link: "https://www.prostgrill.com/",
+                  image: "prost_grill.jpg"
                 },
 
                 { name: "Sound Avenue Bistro",
