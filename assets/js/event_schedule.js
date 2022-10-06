@@ -184,6 +184,14 @@
                   image: "sound_ave_bistro.jpg"
                 },
 
+                { name: "Lala's Lounge",
+                  where: "Boy Shore, NY",
+                  when: new Date(2022, Month.Oct, 9, 0, 0, 0, 0),
+                  time: "2-5pm",
+                  link: "https://www.lalaslounge.com/",
+                  image: "lalas.jpg"
+                },
+
                 { name: "Sound Avenue Bistro",
                   where: "Riverhead, NY",
                   when: new Date(2022, Month.Oct, 15, 0, 0, 0, 0),
