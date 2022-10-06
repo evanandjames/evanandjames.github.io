@@ -185,7 +185,7 @@
                 },
 
                 { name: "Lala's Lounge",
-                  where: "Boy Shore, NY",
+                  where: "Bay Shore, NY",
                   when: new Date(2022, Month.Oct, 9, 0, 0, 0, 0),
                   time: "2-5pm",
                   link: "https://www.lalaslounge.com/",
