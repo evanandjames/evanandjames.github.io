@@ -3234,7 +3234,6 @@ input, select, textarea {
 /* Wrapper */
 	.wrapper2 {
 		height: 40vw;
-		padding: 5rem;
 	}
 
 	@media only all and (max-width: 1300px) {
@@ -3932,10 +3931,10 @@ input, select, textarea {
 
 /* Intro */
 	#intro {
-		background-image: url("../../images/gcity_bg_bw2.jpg");
+		/* background-image: url("../../images/gcity_bg_bw2.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: 100%; */
 	}
 
 		#intro p {
@@ -3965,3 +3964,15 @@ input, select, textarea {
 			}
 
 		}
+
+#sizemapper {
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+}
+
+iframe {
+	position: absolute;
+	width: 100%;
+	height: 56.25%;
+}
