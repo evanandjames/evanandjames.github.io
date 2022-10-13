@@ -3933,6 +3933,42 @@ input, select, textarea {
 
 		}
 
+/* Intro */
+	#intro {
+		/* background-image: url("../../images/gcity_bg_bw2.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100%; */
+	}
+
+		#intro p {
+			font-size: 1.25em;
+		}
+
+			@media screen and (max-width: 980px) {
+
+				#intro p br {
+					display: none;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#intro p {
+					font-size: 1em;
+				}
+
+			}
+
+		@media screen and (max-width: 1280px) {
+
+			#intro {
+				background-attachment: scroll;
+			}
+
+		}
+
 #sizemapper {
 	position: relative;
 	width: 100%;
