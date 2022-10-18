@@ -215,6 +215,14 @@
                   link: "https://www.mickeys-icecream.com/",
                   image: "mickeys_ice_cream.png"
                 },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Oct, 22, 0, 0, 0, 0),
+                  time: "1-4pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
                 
                 { name: "Prost Grill & Garten",
                   where: "Garden City, NY",
