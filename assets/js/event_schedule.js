@@ -247,6 +247,22 @@
                   link: "https://soundbistroriverhead.com/",
                   image: "sound_ave_bistro.jpg"
                 },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Nov, 6, 0, 0, 0, 0),
+                  time: "1-4pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
+                
+                { name: "Riptides",
+                  where: "Lindenhurst, NY",
+                  when: new Date(2022, Month.Nov, 11, 0, 0, 0, 0),
+                  time: "7-9pm",
+                  link: "https://www.riptidescocktailsandgrill.com/",
+                  image: "riptides.jpg"
+                },
                 
                 { name: "Mario's Restaurant",
                   where: "East Setauket, NY",
@@ -254,6 +270,14 @@
                   time: "7-10pm",
                   link: "http://www.mariossetauket.com/",
                   image: "marios.jpg"
+                },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Nov, 26, 0, 0, 0, 0),
+                  time: "6-9pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
                 },
                 
                 { name: "Middle Country Public Library",
