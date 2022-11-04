@@ -272,6 +272,14 @@
                   image: "prost_grill.jpg"
                 },
                 
+                { name: "Prost Grill & Garten",
+                  where: "Garden City, NY",
+                  when: new Date(2022, Month.Dec, 17, 0, 0, 0, 0),
+                  time: "7:30-10:30pm",
+                  link: "https://www.prostgrill.com/",
+                  image: "prost_grill.jpg"
+                },
+                
                 { name: "Mario's Restaurant",
                   where: "East Setauket, NY",
                   when: new Date(2022, Month.Dec, 22, 0, 0, 0, 0),
