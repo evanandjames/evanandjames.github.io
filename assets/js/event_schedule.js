@@ -235,7 +235,7 @@
                 { name: "Bartini Bar",
                   where: "Babylon, NY",
                   when: new Date(2022, Month.Nov, 4, 0, 0, 0, 0),
-                  time: "9-12pm",
+                  time: "9pm-12am",
                   link: "http://bartinibar.com/",
                   image: "bartini.jpg"
                 },
@@ -262,6 +262,14 @@
                   time: "7-9pm",
                   link: "https://www.riptidescocktailsandgrill.com/",
                   image: "riptides.jpg"
+                },
+                
+                { name: "Prost Grill & Garten",
+                  where: "Garden City, NY",
+                  when: new Date(2022, Month.Nov, 18, 0, 0, 0, 0),
+                  time: "7:30-10:30pm",
+                  link: "https://www.prostgrill.com/",
+                  image: "prost_grill.jpg"
                 },
                 
                 { name: "Mario's Restaurant",
