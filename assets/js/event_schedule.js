@@ -271,6 +271,30 @@
                   link: "https://www.prostgrill.com/",
                   image: "prost_grill.jpg"
                 },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Nov, 26, 0, 0, 0, 0),
+                  time: "6-9pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Dec, 3, 0, 0, 0, 0),
+                  time: "6-9pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Dec, 10, 0, 0, 0, 0),
+                  time: "6-9pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
                 
                 { name: "Prost Grill & Garten",
                   where: "Garden City, NY",
@@ -287,13 +311,13 @@
                   link: "http://www.mariossetauket.com/",
                   image: "marios.jpg"
                 },
-
-                { name: "Sound Avenue Bistro",
-                  where: "Riverhead, NY",
-                  when: new Date(2022, Month.Nov, 26, 0, 0, 0, 0),
+                
+                { name: "Standard Rec",
+                  where: "Patchouge, NY",
+                  when: new Date(2022, Month.Dec, 23, 0, 0, 0, 0),
                   time: "6-9pm",
-                  link: "https://soundbistroriverhead.com/",
-                  image: "sound_ave_bistro.jpg"
+                  link: "https://www.stndrec.com/",
+                  image: "standard_rec.jpeg"
                 },
                 
                 { name: "Middle Country Public Library",
