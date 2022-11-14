@@ -16,7 +16,7 @@
       Dec: 11,
     }
 
-    events = [  { name: "Garden City Hotel, Patio Bar",
+    var events = [  { name: "Garden City Hotel, Patio Bar",
                   where: "Garden City, NY",
                   when: new Date(2022, Month.Aug, 18, 0, 0, 0, 0),
                   time: "7-10pm",
@@ -295,6 +295,14 @@
                   link: "https://soundbistroriverhead.com/",
                   image: "sound_ave_bistro.jpg"
                 },
+
+                { name: "Sound Avenue Bistro",
+                  where: "Riverhead, NY",
+                  when: new Date(2022, Month.Dec, 11, 0, 0, 0, 0),
+                  time: "1-4pm",
+                  link: "https://soundbistroriverhead.com/",
+                  image: "sound_ave_bistro.jpg"
+                },
                 
                 { name: "Prost Grill & Garten",
                   where: "Garden City, NY",
@@ -326,10 +334,41 @@
                   time: "7-8:30pm",
                   link: "https://www.mcplibrary.org/",
                   image: "mcplibrary.jpg"
+                },
+                
+                { name: "Middle Country Public Library", // DELETE
+                  where: "Centereach, NY",
+                  when: new Date(2023, Month.Jan, 12, 0, 0, 0, 0),
+                  time: "7-8:30pm",
+                  link: "https://www.mcplibrary.org/",
+                  image: "mcplibrary.jpg"
                 }
 
                 ];
 
+
+    // every sunday generate
+    var numWeeks = 10;
+
+    for (let i = 0; i < numWeeks; i++) {
+      var startDate = new Date(2022, Month.Nov, 27, 0, 0, 0, 0);
+      var temp = new Date();
+      temp.setDate(startDate.getDate() + i*7)
+
+      var event = { name: "Sound Avenue Bistro",
+                    where: "Riverhead, NY",
+                    when: temp,
+                    time: "9am-3pm",
+                    link: "https://soundbistroriverhead.com/",
+                    image: "bistro_brunch.jpeg"
+                  };
+
+      events.push(event);
+    }
+
+    // sort by date
+    events.sort(function(a, b) { return (a.when > b.when) ? 1 : ((b.when > a.when) ? -1 : 0);} );
+                
     // generate string
     newHTML = '<center><h1 id="upcoming">UPCOMING EVENTS</h1></center>';
 
