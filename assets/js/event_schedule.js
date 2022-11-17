@@ -272,6 +272,14 @@
                   image: "prost_grill.jpg"
                 },
 
+                { name: "Rock City Dogs",
+                  where: "Bay Shore, NY",
+                  when: new Date(2022, Month.Nov, 23, 0, 0, 0, 0),
+                  time: "7:30-10pm",
+                  link: "https://rockcitydogs.com/",
+                  image: "rock_city_dog.png"
+                },
+
                 { name: "Sound Avenue Bistro",
                   where: "Riverhead, NY",
                   when: new Date(2022, Month.Nov, 26, 0, 0, 0, 0),
@@ -358,7 +366,7 @@
       var event = { name: "Sound Avenue Bistro",
                     where: "Riverhead, NY",
                     when: temp,
-                    time: "9am-3pm",
+                    time: "11am-2pm",
                     link: "https://soundbistroriverhead.com/",
                     image: "bistro_brunch.jpeg"
                   };
