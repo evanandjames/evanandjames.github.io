@@ -365,6 +365,25 @@
     <button type="submit" class="send-btn" style="font-family:'Nunito', sans-serif;">Send</button>
   </div>
 </form>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", function() {
+      // turn red on tap
+      this.style.background = "#c22424";
+      this.style.color = "#fff";
+
+      // remove red after 1 second
+      setTimeout(() => {
+        this.style.background = "";
+        this.style.color = "#333";
+      }, 1000);
+    });
+  });
+});
+</script>
     
   </body>
 </html>
