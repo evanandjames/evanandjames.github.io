@@ -1,0 +1,643 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Play The Game Again | Evan & James</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-family: "Nunito", sans-serif;
+        background: #fff8eb;
+        color: #000;
+      }
+      .navbar {
+        background-color: #ffffffe6;
+        backdrop-filter: blur(10px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1000;
+      }
+      .navbar-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 0 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .nav-link {
+        color: #333;
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 8px 16px;
+        border-radius: 24px;
+        transition: background 0.3s, color 0.3s;
+      }
+      .nav-link:hover {
+        background: #c22424;
+        color: #fff;
+      }
+      @media (max-width: 600px) {
+        .navbar-content {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+        }
+        .nav-link {
+          padding: 6px 10px;
+          font-size: 1em;
+        }
+      }
+      .top-section {
+          background-color: #E4C58A;
+          padding-top: 60px;
+      }
+      .song-section {
+            background-color: #fff8eb; /* or any color you like */
+            padding: 10px 0;           /* vertical padding */
+      }
+     .page-content {
+        width: 90%;          /* fluid width */
+        max-width: 1050px;   /* never too wide on big screens */
+        margin: 50px auto 40px auto; /* centers horizontally */
+        padding: 0;          /* no extra padding interfering */
+        box-sizing: border-box; /* includes padding in width calculation */
+      }
+      h1 {
+        text-align: center;
+        font-size: 2.2em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .release-date {
+        text-align: center;
+        margin-bottom: 20px; 
+      }
+      .cover {
+        display: block;
+        margin: 0 auto 20px auto;
+        max-width: 300px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      }
+      .song-story {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+      .back-link {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 16px;
+        background: #1a8f22;
+        color: #fff;
+        border-radius: 24px;
+        text-decoration: none;
+        transition: background 0.3s;
+      }
+      .back-link:hover {
+        background: #15711b;
+      }
+      .album-spotify-player {
+        width: 700px;   
+        max-width: 90%; 
+        margin: 20px auto;  /* centering */
+      }
+      .album-spotify-player iframe {
+        width: 100%;
+        height: 250px;
+        border: 0;
+        border-radius: 12px;
+        display: block;
+      }
+      .spotify-player {
+        width: 700px;   
+        max-width: 90%; 
+        margin: 20px auto;  /* centering */
+      }
+      .spotify-player iframe {
+        width: 100%;
+        height: 152px;
+        border: 0;
+        border-radius: 12px;
+        display: block;
+      }
+      .page-content h1,
+        .page-content .release-date {
+        text-align: center;
+      }
+        .page-content p,
+        .page-content .song-story p {
+            text-align: left;
+            margin-bottom: 1em; /* spacing between paragraphs */
+        }
+                @media (max-width: 600px) {
+                    .page-content 
+                width: 90%; /* container almost fills screen */
+                }
+    .section-divider {
+        border: none;
+        border-top: 2px solid black; /* thickness + color */
+        margin: 50px 0;              /* spacing above and below */
+        width: 100%;                 /* full width */
+        }   
+            
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-content">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="index.html#events" class="nav-link">Events</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="songs.html" class="nav-link">Songs</a>
+        <a href="https://evanandjames.printful.me/" target="_blank" rel="noopener" class="nav-link">Merch</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Album Title Section -->
+
+    <div class="top-section">
+        <div class="page-content">
+            <h1>Endless Possibilities (Album)</h1>
+            <p class="release-date">Released July 27, 2025</p>
+
+            <div class="album-spotify-player">
+                <iframe 
+                        src="https://open.spotify.com/embed/album/6CcX0XlovafRr0uU4aUuLL?utm_source=generator" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nights Like These -->
+
+    <div class="page-content">
+      <h1>1. Endless Possibilities</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/5szctzO0vQYMp3hLbteIkF?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+    </div>
+
+      <div class="song-story">
+        <p>
+        Endless Possibilities is the title song of the album, and it was written
+        by Andrew James during the late-night hours in January 2024, with the goal
+        of creating something uplifting and broadly relatable. The song blends
+        anthemic melodies with reflective storytelling, moving from self-doubt
+        and hesitation toward empowerment and discovery.
+        </p>
+
+        <p>
+        Lyrically, it traces the journey of breaking free from fear and outside
+        pressures, learning to trust your own voice, and embracing the open doors
+        that life presents. The chorus’s soaring refrain captures the heart of the
+        track, making it both deeply personal and universally resonant.
+        </p>
+
+        <p>
+        With its mix of introspection and optimism, Endless Possibilities stands
+        out as one of the most commercially appealing songs on the album, carrying
+        a message of openness, resilience, growth, and hope.
+        </p>
+
+      </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+    <!-- Corners of My Heart -->
+
+    <div class="page-content">
+      <h1>2. Corners of My Heart</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/0lfXmDtnmsKvpcuAP1uelX?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+    </div>
+
+      <div class="song-story">
+        <p>
+        Corners of My Heart was first created when Andrew James came up with the melody just minutes
+        before a gig at Waterdrinker in Manorville, NY. What began as a spontaneous idea quickly grew into
+        a fully developed track, with heartfelt lyrics layered over an upbeat, flowing arrangement.
+        </p>
+
+        <p>
+        The song blends themes of love, loss, and memory, capturing the lingering presence of someone
+        who remains even after they’re gone. Its imagery of fading stars and whispered names creates both
+        intimacy and universality, making the song resonate deeply with listeners.
+        </p>
+
+        <p>
+        Corners of My Heart balances melancholy with hope, standing out as one of the album’s most
+        emotionally powerful, yet uplifting tracks.
+        </p>
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+    <!-- You Changed Me -->
+
+    <div class="page-content">
+      <h1>3. You Changed Me</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/2YcTuMMxDVeV2AIdYCvsBI?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+      <div class="song-story">
+        <p>
+        You Changed Me was written by Andrew James late at night in the car, with the melody arriving first and
+        the lyrics following to match its slow, soulful tone. 
+        </p>
+
+        <p>
+        The track leans into the smooth influence of 1950s R&B, unfolding as a powerful electric ballad.
+        Its verses trace a journey from fear and loneliness to love and renewal, brought to life through
+        simple but deeply heartfelt lyrics. 
+        </p>
+
+        <p>
+        Bandmate Christopher Evan added elements such as the guitar solo. With its steady build and emotional
+        refrain, You Changed Me stands out as one of the album’s most moving pieces, blending vulnerability
+        with timeless style.
+        </p>
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+    <!-- Keep It Together -->
+
+    <div class="page-content">
+      <h1>4. Keep It Together</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/1UqZ4ULWRvPj1EX6ohTdBL?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+    Keep It Together was written primarily by Christopher Evan with the help of bandmate Andrew James. It
+    draws inspiration from the smooth, laid-back grooves of the 1970s yacht rock era. With a steady,
+    leading bassline and soft synth textures, the track channels the chill yet funky vibe of bands from that time.  
+    </p>
+
+    <p>
+    Lyrically, the song is built around the idea of two friends: one overwhelmed by stress and self-doubt,
+    the other offering reassurance and advice to “keep it together.” Its message is simple but powerful:
+    breathe, take things one step at a time, and know that setbacks don’t define you.  
+    </p>
+
+    <p>
+    Blending easygoing instrumentation with thoughtful storytelling, “Keep It Together” captures both
+    consolation and resilience, making it one of the album’s most grounding and comforting songs.  
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+<hr class="section-divider">
+
+    <!-- Beautiful Day -->
+
+    <div class="page-content">
+      <h1>5. Beautiful Day</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/6VeAFzd6V1j1byOGBsg1Hr?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+    Beautiful Day was written by Andrew James, with Christopher Evan contributing the bright and melodic
+    guitar solo. The song was created to celebrate the small, joyful moments in everyday life, from a simple
+    stroll outside to the feeling of contentment in routine. Its light, carefree energy reflects a sense of
+    ease and appreciation for the present.  
+    </p>
+
+    <p>
+    Musically, the track features an upbeat and singable melody, with a repetitive chorus that emphasizes the
+    feeling of happiness and simplicity. The arrangement is intentionally straightforward, allowing the listener
+    to focus on the mood rather than complex instrumentation. The guitar solo adds a subtle flourish that complements
+    the cheerful tone.  
+    </p>
+
+    <p>
+    Lyrically, Beautiful Day encourages listeners to notice and savor the ordinary pleasures around them. The
+    song reminds us that even seemingly routine days can hold moments of delight, making it an uplifting and universally
+    relatable track on the album. Its simplicity is its strength, turning everyday experiences into something to celebrate.  
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+<hr class="section-divider">
+
+     <!-- Like I Do -->
+
+    <div class="page-content">
+      <h1>6. Like I Do</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/4YdskKoPwl8JDakrQIShjO?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">   
+        </iframe>
+    </div>
+
+  <div class="song-story">
+     <p></p>
+    Like I Do was written by Andrew James following a recent breakup, capturing the raw emotions of
+    confusion and sadness that come from feeling left behind. The song explores the struggle of trying to
+    understand why the other person refuses to communicate or see the situation from your perspective, creating
+    a deeply personal reflection on loss and emotional disconnect.  
+    </p>
+
+    <p>
+    The music was inspired by the Beach Boys song "Don't Worry Baby". It features introspective verses with
+    expressive bridges, conveying both longing and frustration. The guitar solo was improvised by Christopher
+    Evan on the spot, and the first take was used in the record. The song emphasizes the cyclical nature of
+    reflection and yearning, mirroring the internal dialogue of someone grappling with a breakup.  
+    </p>
+
+    <p>
+    Lyrically, Like I Do embodies the tension between hope and reality, the desire for closure, and the
+    persistence of memory. The repeated refrain of feeling misunderstood “Why don’t you see it like I do”
+    anchors the song’s emotional core, making it relatable to anyone who has experienced unreciprocated feelings
+    or confusion after a relationship ends. It stands as one of the more raw and emotionally resonant tracks on the album.  
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- Feeling of Home -->
+
+    <div class="page-content">
+      <h1>7. Feeling of Home</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/2yWThrKeyVafeu4OPySmk4?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+    Feeling of Home was inspired by the sense of comfort and belonging that comes from returning to the
+    place you know best. The first part of the song that came to be was the instrumental intro, which popped
+    into Andrew James' head upon waking one morning. Its melody and structure were then developed collaboratively
+    with Christopher Evan, shaping the song into a reflective and sentimental track.  
+    </p>
+
+    <p>
+    The song explores the tension between adventure and the pull of home, contrasting moments of freedom and
+    discovery with the longing that builds when away. Verses like “Once I’ve gone away for long, I start to feel
+    I don’t belong” convey a universal feeling of missing the familiar, while the chorus celebrates the reassurance
+    and joy of being home again. Instrumental interludes add depth and give the listener space to reflect alongside
+    the narrative. Musically, the track blends evocative guitar work with a country feel, and a flowing structure
+    that mirrors the journey back to comfort. The structure, music, and lyrics were fleshed out by Andrew and Christopher
+    together.
+    </p>
+
+    <p>
+    It’s a track that captures both nostalgia and appreciation for adventure, making it a memorable
+    and heartfelt part of the album.  
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- Never Did I Think -->
+
+    <div class="page-content">
+      <h1>8. Never Did I Think</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/69jay3W0Qhpp0CnvNsNVRR?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+   <p>
+    Never Did I Think is an acoustic, heartfelt song written by Andrew James. The song captures the experience of
+    someone who once believed they were entirely self-sufficient, only to confront moments that challenge that
+    perception. Its reflective tone blends introspection with a sense of acceptance, making the track emotionally relatable.  
+    </p>
+
+    <p>
+    Lyrically, the song explores the tension between independence and reliance, emphasizing that asking for
+    help is not a weakness but part of growth. Lines like “Things that I once thought were easy seem to be
+    impossible” illustrate the struggle of facing unforeseen challenges, while the chorus reinforces the journey
+    of balancing self-reliance with openness to support. The narrative moves from personal doubt toward resilience
+    and hope, creating a story that resonates universally. Musically, the track’s melody and instrumental choices
+    mirror this emotional arc, giving weight to the lyrics while maintaining a reflective, uplifting atmosphere.  
+    </p>
+
+    <p>
+    Overall, Never Did I Think stands as a contemplative and heartfelt addition to the album, highlighting
+    the human experience of vulnerability, acceptance, and personal growth. Its combination of introspective
+    lyrics and evocative music leaves a lasting impression on listeners, reminding them that it’s okay to
+    acknowledge limits and seek connection.  
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- Golden Days -->
+
+    <div class="page-content">
+      <h1>9. Golden Days</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/1ZVGLsxSbVzq1DsxLhLPht?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+    Golden Days was written primarily by Andrew James, with Christopher Evan contributing elements such as the
+    guitar solo. The song reflects on nostalgia and the beauty of past experiences, capturing the feeling of looking
+    back at simpler times with fondness and appreciation. Its warm, melodic structure reinforces the sense of
+    reminiscence while providing an uplifting, timeless vibe.  
+    </p>
+
+    <p>
+    Lyrically, the song explores the contrast between youthful innocence and the awareness that comes with growing
+    older. Lines like “Days I’ll never live again, except in memory” evoke reflection, while the alternate chorus
+    shifts focus to the excitement and promise of the present and future. The track balances wistfulness with optimism,
+    reminding listeners that while the past is cherished, there are golden moments still ahead.  
+    </p>
+
+    <p>
+    Musically and emotionally, Golden Days stands out as a celebration of life’s journey. Its combination
+    of reflective verses, catchy choruses, and instrumental highlights creates a nostalgic yet forward-looking atmosphere.
+    The song resonates with anyone who has experienced the sweetness of memory and the anticipation of creating new moments to treasure.  
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- Redbird (Fly Today) -->
+
+    <div class="page-content">
+      <h1>10. Redbird (Fly Today)</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/1MbcXbB7D683gJcRYcdEkI?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">   
+        </iframe>
+    </div>
+
+  <div class="song-story">
+   <p>
+    Redbird (Fly Today) was written by Christopher Evan, inspired by a moment of unexpected creativity that
+    came from the simplest of experiences. While filling up his water bottle, preparing to go to the gym, he noticed a small redbird sitting calmly
+    on the backyard deck, making direct eye contact before flying away. This brief encounter sparked the melody and imagery
+    that form the heart of the song, blending reflection, playfulness, and a sense of wonder.  
+    </p>
+
+    <p>
+    Lyrically, the song explores themes of freedom, connection, and living fully in the present. Verses like
+    “You and I should hang a while, let’s just spread our wings and fly today” capture a fleeting, joyful
+    awareness, while the choruses encourage taking action, embracing opportunity, and finding commonality in
+    shared experiences. The song balances light-hearted storytelling with deeper emotional resonance, celebrating
+    the small, meaningful moments that inspire growth.  
+    </p>
+
+    <p>
+    Musically, Redbird (Fly Today) combines uplifting melodies with rhythmic flow and instrumental flourishes,
+    creating an airy, liberating atmosphere. Its combination of reflective verses, soaring choruses, and playful
+    musical elements mirrors the story behind the song. Inspiration can arrive suddenly and unexpectedly,
+    turning an ordinary moment into something memorable and inspiring.  
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- One Show And Another One -->
+
+    <div class="page-content">
+      <h1>11. One Show And Another One</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/0L8cQij2vefaRbWaV49H57?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+    One Show And Another One was written by Andrew James during his undergraduate years at Cornell University.
+    The song captures the spirit and humor of performing small gigs, celebrating
+    the energy of even modest audiences and the joy of sharing music, regardless of the size of the crowd.  
+    </p>
+
+    <p>
+    Lyrically, the song offers a playful, firsthand perspective on life as a performing musician. From lines like
+    “And even though there were only 13 people, I said that’s 12 more than one” to the chorus’s celebration of small
+    but lively crowds, the track conveys the excitement and camaraderie that comes with each show. It’s a lighthearted
+    reflection on perseverance, connection, and finding fulfillment in doing what you love.  
+    </p>
+
+    <p>
+    Musically, the song features upbeat instrumentation with guitar, electric piano, and rhythmic flow that mirror
+    the lively, intimate bar settings it describes. Its approachable melodies and storytelling style evoke the fun,
+    grounded experience of live performance, emphasizing that every show, no matter how small, has its own magic.  
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+</html>

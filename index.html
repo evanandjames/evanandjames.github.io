@@ -210,12 +210,13 @@
         z-index: 1000;
       }
       .navbar-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-around; /* spreads links evenly on desktop */
         align-items: center;
+        flex-wrap: nowrap; /* prevent wrapping on desktop */
+        padding: 0 20px; /* <-- side cushions */
+        max-width: 1200px; /* keeps navbar from being too wide on large screens */
+        margin: 0 auto;    /* centers the container */
       }
       .nav-link {
         color: #333;
@@ -231,6 +232,18 @@
         background: #c22424;
         color: #fff;
       }
+        @media (max-width: 600px) {
+      .navbar-content {
+        flex-wrap: wrap;        /* allow links to move to the next line */
+        justify-content: center; /* center links on small screens */
+        gap: 10px;               /* spacing between wrapped links */
+      }
+
+      .nav-link {
+        padding: 6px 10px;       /* smaller padding on mobile */
+        font-size: 1em;          /* slightly smaller font */
+      }
+    }
 
       /* Section IDs for navigation */
       .home-section { scroll-margin-top: 60px; }
@@ -252,6 +265,8 @@
         <a href="#home" class="nav-link">Home</a>
         <a href="#events" class="nav-link">Events</a>
         <a href="#about" class="nav-link">About</a>
+        <a href="songs.html" class="nav-link">Songs</a>
+        <a href="https://evanandjames.printful.me/" target="_blank" rel="noopener" class="nav-link">Merch</a>
         <a href="#contact" class="nav-link">Contact</a>
       </div>
     </nav>

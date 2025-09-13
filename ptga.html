@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Play The Game Again | Evan & James</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-family: "Nunito", sans-serif;
+        background: #FFF8EB;
+        color: #000;
+      }
+      .navbar {
+        background-color: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(10px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1000;
+      }
+      .navbar-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 0 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .nav-link {
+        color: #333;
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 8px 16px;
+        border-radius: 24px;
+        transition: background 0.3s, color 0.3s;
+      }
+      .nav-link:hover {
+        background: #c22424;
+        color: #fff;
+      }
+      @media (max-width: 600px) {
+        .navbar-content {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+        }
+        .nav-link {
+          padding: 6px 10px;
+          font-size: 1em;
+        }
+      }
+     .page-content {
+        width: 90%;          /* fluid width */
+        max-width: 1050px;   /* never too wide on big screens */
+        margin: 120px auto 40px auto; /* centers horizontally */
+        padding: 0;          /* no extra padding interfering */
+        box-sizing: border-box; /* includes padding in width calculation */
+      }
+      h1 {
+        text-align: center;
+        font-size: 2.2em;
+        margin-bottom: 0px;
+      }
+      .release-date {
+        text-align: center;
+        margin-bottom: 20px; 
+      }
+      .cover {
+        display: block;
+        margin: 0 auto 20px auto;
+        max-width: 300px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      }
+      .song-story {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+      .back-link {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 16px;
+        background: #c22424;
+        color: #fff;
+        border-radius: 24px;
+        text-decoration: none;
+        transition: background 0.3s;
+      }
+      .back-link:hover {
+        background: #a71c1c;
+      }
+      .spotify-player {
+        width: 700px;   
+        max-width: 90%; 
+        margin: 20px auto;  /* centering */
+      }
+      .spotify-player iframe {
+        width: 100%;
+        height: 152px;
+        border: 0;
+        border-radius: 12px;
+        display: block;
+      }
+      .page-content h1,
+        .page-content .release-date {
+        text-align: center;
+      }
+        .page-content p,
+        .page-content .song-story p {
+            text-align: left;
+            margin-bottom: 1em; /* spacing between paragraphs */
+        }
+                @media (max-width: 600px) {
+                    .page-content 
+                width: 90%; /* container almost fills screen */
+                }
+            
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-content">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="index.html#events" class="nav-link">Events</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="songs.html" class="nav-link">Songs</a>
+        <a href="https://evanandjames.printful.me/" target="_blank" rel="noopener" class="nav-link">Merch</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </div>
+    </nav>
+
+    <div class="page-content">
+      <h1>Play The Game Again</h1>
+      <p class="release-date">Released May 21, 2023</p>
+    
+<!-- Spotify Embed -->
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/3DG9K8XDthwUD9N6Z0vbUv?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+    </div>
+
+      <div class="song-story">
+        <p>
+          Play The Game Again was written by Andrew James in the early morning
+          hours of October 23, 2021. Inspiration struck around 2am, and rather
+          than risk waking anyone in the house, he grabbed his guitar and went
+          out to his car to capture the idea on an iPhone voice memo. The music
+          came first, and the lyrics followed soon after, which is not unusual
+          for Andrew. The entire song was finished before he went back into the
+          house at around 3am.</p>
+        <p>
+          The song reflects on heartbreak and regret, but its upbeat energy
+          gives it an undercurrent of hope — the sense that even after loss,
+          there’s still the possibility of a second chance.</p>
+        <p>
+            About a year and a half later, Andrew teamed up with his bandmate,
+            Christopher Evan, to develop and record the track together. With
+            both of their contributions, the song truly came to life and became
+            the duo’s very first single, officially released on May 21, 2023.</p>
+      </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,692 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Play The Game Again | Evan & James</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-family: "Nunito", sans-serif;
+        background: #fff8eb;
+        color: #000;
+      }
+      .navbar {
+        background-color: #ffffffe6;
+        backdrop-filter: blur(10px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1000;
+      }
+      .navbar-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 0 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .nav-link {
+        color: #333;
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 8px 16px;
+        border-radius: 24px;
+        transition: background 0.3s, color 0.3s;
+      }
+      .nav-link:hover {
+        background: #c22424;
+        color: #fff;
+      }
+      @media (max-width: 600px) {
+        .navbar-content {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+        }
+        .nav-link {
+          padding: 6px 10px;
+          font-size: 1em;
+        }
+      }
+      .top-section {
+          background-color: #E4C58A;
+          padding-top: 60px;
+      }
+      .song-section {
+            background-color: #fff8eb; /* or any color you like */
+            padding: 10px 0;           /* vertical padding */
+      }
+     .page-content {
+        width: 90%;          /* fluid width */
+        max-width: 1050px;   /* never too wide on big screens */
+        margin: 50px auto 40px auto; /* centers horizontally */
+        padding: 0;          /* no extra padding interfering */
+        box-sizing: border-box; /* includes padding in width calculation */
+      }
+      h1 {
+        text-align: center;
+        font-size: 2.2em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .release-date {
+        text-align: center;
+        margin-bottom: 20px; 
+      }
+      .cover {
+        display: block;
+        margin: 0 auto 20px auto;
+        max-width: 300px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      }
+      .song-story {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+      .back-link {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 16px;
+        background: #c22424;
+        color: #fff;
+        border-radius: 24px;
+        text-decoration: none;
+        transition: background 0.3s;
+      }
+      .back-link:hover {
+        background: #a71c1c;
+      }
+      .album-spotify-player {
+        width: 700px;   
+        max-width: 90%; 
+        margin: 20px auto;  /* centering */
+      }
+      .album-spotify-player iframe {
+        width: 100%;
+        height: 250px;
+        border: 0;
+        border-radius: 12px;
+        display: block;
+      }
+      .spotify-player {
+        width: 700px;   
+        max-width: 90%; 
+        margin: 20px auto;  /* centering */
+      }
+      .spotify-player iframe {
+        width: 100%;
+        height: 152px;
+        border: 0;
+        border-radius: 12px;
+        display: block;
+      }
+      .page-content h1,
+        .page-content .release-date {
+        text-align: center;
+      }
+        .page-content p,
+        .page-content .song-story p {
+            text-align: left;
+            margin-bottom: 1em; /* spacing between paragraphs */
+        }
+                @media (max-width: 600px) {
+                    .page-content 
+                width: 90%; /* container almost fills screen */
+                }
+    .section-divider {
+        border: none;
+        border-top: 2px solid black; /* thickness + color */
+        margin: 50px 0;              /* spacing above and below */
+        width: 100%;                 /* full width */
+        }   
+            
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-content">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="index.html#events" class="nav-link">Events</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="songs.html" class="nav-link">Songs</a>
+        <a href="https://evanandjames.printful.me/" target="_blank" rel="noopener" class="nav-link">Merch</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Album Title Section -->
+
+    <div class="top-section">
+        <div class="page-content">
+            <h1>Nights Like These (Album)</h1>
+            <p class="release-date">Released July 1, 2023</p>
+
+            <div class="album-spotify-player">
+                <iframe 
+                        src="https://open.spotify.com/embed/album/2fY6vyBHdAmwj9iqML9gfS?utm_source=generator" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nights Like These -->
+
+    <div class="page-content">
+      <h1>1. Nights Like These</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/6AwoMuvqCYO5lPEQ7rW1dr?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+    </div>
+
+      <div class="song-story">
+        <p>
+        Nights Like These was written primarily by Andrew James. The song is inspired by
+        “Brown Eyed Girl” by Van Morrison, which is known for its upbeat vibe and
+        catchy style. It also features a key change similar to that found in the
+        song “My Girl” by the Temptations, lifting up a whole step from the key of
+        C to the key of D. The music came first, with its bright, upbeat vibe, and
+        the lyrics followed soon after, reflecting the excitement and fleeting magic
+        of special nights spent with someone memorable. The song was finished in
+        just a few hours, capturing that spontaneous, joyful energy.</p>
+        <p>
+        Lyrically, the song explores moments of connection and fun — the kind of
+        night that feels alive and unforgettable. Lines like “When the night has
+        come to an end / I lie in bed and think to myself” capture the reflective
+        side, while the chorus, “Nights like these they come once / In a blue moon,”
+        emphasizes the rarity and excitement of these experiences. Overall, the
+        track is meant to lift spirits and boost moods, celebrating the small but
+        powerful moments that bring joy.</p>
+        <p>
+        A few months later, Andrew teamed up with his bandmate, Christopher Evan,
+        to refine and record the track together. With both of their contributions,
+        the song came fully to life and became the title song of the duo’s first
+        album.</p>
+
+      </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+    <!-- A Place For You -->
+
+    <div class="page-content">
+      <h1>2. A Place For You</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/5rrtv5q8GvR2nljlNxTGcc?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+    </div>
+
+      <div class="song-story">
+    <p>
+      A Place For You was written primarily by Andrew James while on a religious trip 
+      to Bosnia in August 2022. Although surrounded by friends who cared for him, 
+      Andrew found himself frustrated by the constant social energy. He craved 
+      solitude and space to be creative, and during one quiet moment alone in his 
+      hotel room, the song began to take shape. 
+    </p>
+
+    <p>
+      Lyrically, the song explores the tension between belonging and individuality. 
+      The verses highlight how people often have expectations or advice, while the 
+      choruses reassure that it’s okay to be different, and that there is still a 
+      place where you belong. The bridge underscores the importance of solitude, 
+      suggesting that when you’re alone, your true calling becomes clearer. 
+    </p>
+
+    <p>
+      Later, Andrew teamed up with his bandmate, Christopher Evan, who added subtle 
+      but meaningful contributions that helped polish and complete the track. With 
+      its reflective lyrics and uplifting message, A Place For You became a heartfelt 
+      addition to the duo’s debut album. 
+    </p>
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+    <!-- My New Home -->
+
+    <div class="page-content">
+      <h1>3. My New Home</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/4bl0vfgDNvDFyw0AEQIyTl?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+      <div class="song-story">
+    <p>My New Home was written primarily by Andrew James in his car during the late
+        hours of the night. The song captures the feeling of discovering a place where
+        you truly belong. Musically, it blends bright, inviting melodies with gentle
+        rhythmic elements that give it an uplifting, welcoming vibe. The verses focus
+        on observing the people and the energy around the narrator, while the repeated
+        line “I feel like it’s my new home” emphasizes the sense of comfort and acceptance.</p>
+
+    <p>Lyrically, the song explores the emotional journey of adjusting to a new
+        environment — from initial uncertainty to eventual belonging. The bridge
+        highlights that transformation, acknowledging initial hesitation before
+        celebrating the joy of finding a place where you fit in. The guitar solo
+        and repeated bridge sections add emotional depth, reinforcing the song’s
+        theme of homecoming and connection. Overall, the track conveys warmth and
+        optimism, inviting listeners to feel the same sense of home and peace.</p>
+
+    <p>When working on the album, Andrew teamed up with his bandmate, Christopher
+        Evan, to refine and record the track together. Christopher added elements
+        such as the guitar solo and harmonies, which elevated the song to another
+        level. With both of their contributions, the song came fully to life and
+        became a standout track on the duo’s album.</p>
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+    <!-- Make You Feel Loved -->
+
+    <div class="page-content">
+      <h1>4. Make You Feel Loved</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/2JDGB6cc3VrAyiXNMbYEKT?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+      Make You Feel Loved was written by Andrew James as a deeply personal reflection 
+      on his relationship with his second girlfriend. When they first met, she shared 
+      her story of struggles and pain, and Andrew was struck by her strength and 
+      endurance. From that place of empathy, he felt a natural desire to comfort her 
+      and to create a song dedicated to making her feel cared for. 
+    </p>
+
+    <p>
+      Lyrically, the song blends intimacy with hope. The verses express tenderness 
+      and compassion, while the bridge emphasizes the universal longing for support 
+      and protection. The repeated promise to “make you feel loved” anchors the 
+      track in warmth, reminding listeners of the healing power of love and 
+      connection. The guitar solo and extended ending add emotional weight, carrying 
+      the song to a heartfelt conclusion. 
+    </p>
+
+    <p>
+      Later, Andrew collaborated with his bandmate, Christopher Evan, who contributed 
+      additional elements, including a bassline that gave the track more depth. 
+      Together, they completed a song that stands out on the album for its sincerity 
+      and emotional resonance. 
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+<hr class="section-divider">
+
+    <!-- Man On The Moon -->
+
+    <div class="page-content">
+      <h1>5. Man On The Moon</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/2xqvAyLtUJLBAOBlJhYpoG?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+     <p>
+      Man on the Moon was inspired by some of Paul McCartney’s unreleased work from 
+      the 1970s, particularly the track “All of You” from the <i>One Hand Clapping</i> 
+      sessions. The music was created first by Andrew James, who wanted to capture 
+      that playful, whimsical energy. Later, bandmate Christopher Evan joined 
+      in to help craft the lyrics.
+    </p>
+
+    <p>
+      The lyrics tell the story of a carefree figure, the “man on the moon”, who 
+      is always smiling, full of joy, and seemingly untouched by life’s troubles. 
+      While others may overlook him, the narrator notices his wisdom and light. 
+      Through verses and pre-choruses that invite listeners to “take a look” and 
+      see more deeply, the track builds toward a chorus that links this figure to 
+      the narrator’s own sense of belonging and connection: “You and I were meant 
+      to be / Just like the man on the moon.” 
+    </p>
+
+    <p>
+      Musically, the song flows with whimsical melodies, a gentle piano interlude, and 
+      a dramatic ending that ties everything together. With Andrew’s musical 
+      foundation and Christopher’s lyrical contributions, Man on the Moon became a 
+      unique standout on the album.
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+<hr class="section-divider">
+
+     <!-- Lost In Love -->
+
+    <div class="page-content">
+      <h1>6. Lost In Love</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/69ptAu430iPICMZI0u1LMs?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+     <p>
+      Lost in Love was written primarily by Christopher Evan, and it tells the story of 
+      his first experience with love. The song captures the thrilling rush of a new 
+      relationship, how it can be both exhilarating and disorienting, like getting swept 
+      away in a dream. Although the relationship ended years before the song was written, 
+      Christopher used this piece as a way to reflect and find the closure he never had 
+      at the time. 
+    </p>
+
+    <p>
+      Lyrically, the verses paint vivid snapshots of young romance: late-night drives, 
+      kisses in the dark, and carefree adventures that feel like scenes from a movie. 
+      The recurring pre-chorus lines, “No destination, no limitation, just you and I”, 
+      emphasize the freedom and intensity of living in the moment, while the chorus 
+      simply and powerfully sums it up: “’Cause we’re lost in love.” The repetition 
+      mirrors the overwhelming, consuming feeling of love in its purest form. 
+    </p>
+
+    <p>
+      Musically, the song blends simple melodies with a dynamic build, from tender 
+      verses to passionate pre-choruses and a chorus that lingers long after it’s sung. 
+      A synthesizer solo and extended final chorus amplify the emotional impact, giving the 
+      track both intimacy and grandeur. With Christopher’s heartfelt writing and 
+      performance, Lost in Love became one of the most personal and reflective songs 
+      on the album. 
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- Little Dream -->
+
+    <div class="page-content">
+      <h1>7. Little Dream</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/2nYHresZmjUr0FKg2x1m0W?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+      Little Dream was written primarily by Andrew James, and the melody first came 
+      to him while he was driving to Christopher’s house for a rehearsal. He had been 
+      listening to the Beatles’ rendition of the “Honeymoon Song” from their 
+      <i>Live at the BBC</i> album, and its lively shuffle rhythm immediately captured 
+      his imagination. Inspired by that energy, Andrew began shaping the foundation 
+      of what would become Little Dream during the drive. 
+    </p>
+
+    <p>
+      Once he arrived at Christopher’s, he shared the melodic idea, and together the 
+      duo completed the song on the spot. Lyrically, the track personifies a dream 
+      as a guiding force, something that believes in the narrator and offers both 
+      purpose and direction. Lines like “Little dream, make me feel like I’m alive 
+      again” and “Why is it you chose me?” highlight both wonder and gratitude, 
+      giving the song a heartfelt and uplifting tone. 
+    </p>
+
+    <p>
+      Musically, Little Dream blends the shuffle-inspired rhythm with warm melodies 
+      and harmonies, creating a playful yet sincere sound. The chorus “I will trust 
+      in you, and I will see it through” reinforces the theme of faith and 
+      perseverance. A soaring solo and instrumental outro round out the track, 
+      leaving listeners with a sense of hope and forward motion. The spontaneity of 
+      its creation shines through, making it one of the album’s most organic and 
+      spirited songs. 
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- The Way To Carry On -->
+
+    <div class="page-content">
+      <h1>8. The Way To Carry On</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/7Mmj15n8vvN5BeNVr8PlYo?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+     <p>
+      The Way to Carry On is one of the rare songs that Andrew James and Christopher Evan 
+      wrote together from the start. The initial musical idea came from Andrew, who drew 
+      inspiration from the Beatles’ cover of “Don’t Ever Change”. With both of their creative voices involved, 
+      the song quickly developed into a balanced blend of melody, message, and wit. 
+    </p>
+
+    <p>
+      Lyrically, the song pokes fun at the monotony of everyday routines — especially the 
+      draining cycle of 9-to-5 jobs and the soullessness that often comes with them. Lines 
+      like “Everybody’s wearing a frown” and “Everybody’s self-esteem is breaking at the 
+      seams” capture the frustration of modern working life, while the chorus-like bridge 
+      offers encouragement: “Pain is all around and though you may feel down, now you 
+      know the way to carry on.” The result is both a critique of dull repetition and a 
+      reminder of resilience. 
+    </p>
+
+    <p>
+      Musically, the track carries a playful, Beatles-inspired charm with bright melodies, 
+      a lively guitar solo, and a catchy rhythm that keeps the listener moving forward. 
+      Together, Andrew and Christopher infused humor, honesty, and hope into the song, 
+      turning a commentary on the burdens of daily life into an anthem about finding 
+      strength and perseverance. 
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- Love Sweet Love -->
+
+    <div class="page-content">
+      <h1>9. Love Sweet Love</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/03VPlPXDaUlynQKRTfW9uv?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+      Love Sweet Love was written by Andrew James as a bright, uplifting one-off track. 
+      The direct inspiration came from the medley at the end of Paul McCartney’s 
+      <em>Red Rose Speedway</em> album, whose joyous and melodic vibe sparked the creation 
+      of this song. Andrew sought to capture that same sense of warmth and positivity, 
+      creating a piece that feels timelessly cheerful and universally relatable. 
+    </p>
+
+    <p>
+      The lyrics are intentionally simple and straightforward, revolving around the 
+      undeniable feeling of being in love. Refrains like “I can’t deny that I’m in love, 
+      sweet love” embrace the joy of connection without complication, while the bridge 
+      reflects on the first spark of attraction and the happiness it brings. The message 
+      is clear: love is something to celebrate openly and honestly. 
+    </p>
+
+    <p>
+      Musically, the song blends playful verses with supporting harmonies and a lively guitar
+      solo that ties everything together. Its optimistic spirit make it a track that radiates
+      positivity. The result is a simple yet powerful ode to love itself: bright, melodic, and full of life. 
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- Can't You See -->
+
+    <div class="page-content">
+      <h1>10. Can't You See</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/2J1yXyMJZuDHh0RXrWer7N?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+      Can’t You See is one of Andrew James’s earliest works, written during his time at 
+      Cornell University. Composed in the privacy of his single dorm room bed, the song 
+      reflects the raw emotion and longing of a young songwriter navigating love and 
+      vulnerability. 
+    </p>
+
+    <p>
+      Musically, it draws inspiration from 1950s ballads — timeless, tender songs built on 
+      simple melodies and heartfelt lyrics. The verses plead for love and memory to endure, 
+      while the bridge opens up into an emotional declaration that “love is kind,” capturing 
+      the sincerity at the heart of the track. 
+    </p>
+
+    <p>
+      What makes the song resonate is its simplicity. With no frills or overproduction, 
+      Can’t You See lets the lyrics and melody shine, creating an atmosphere that feels both 
+      nostalgic and deeply personal. It stands as a beautiful early glimpse into Andrew’s 
+      songwriting voice and his ability to connect universal themes of love.
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+  <hr class="section-divider">
+
+     <!-- Bye Bye Lai -->
+
+    <div class="page-content">
+      <h1>11. Bye Bye Lai</h1>
+    
+    <div class="spotify-player">
+        <iframe 
+                src="https://open.spotify.com/embed/track/0UyRDkoAwkwSh8kf32H2fd?utm_source=generator" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+                
+        </iframe>
+    </div>
+
+  <div class="song-story">
+    <p>
+      Bye Bye Lai was written by Andrew James on a plane from New York to Bosnia in August 2022.
+      The song captures the raw emotions of heartbreak and betrayal, reflecting the moment of
+      clarity when love has ended and self-reliance takes over. Musically, it draws inspiration
+      from the upbeat energy of the Beach Boys, particularly “Help Me Rhonda,” blending an upbeat,
+      melodic style with the weight of the lyrics. 
+    </p>
+
+    <p>
+      Lyrically, the song traces the journey from initial hurt and disbelief to decisive 
+      independence. The verses detail personal experiences of unfaithfulness, while the 
+      choruses, repeating “Bye Bye Lai, I'm going home,” emphasize the finality and resolve 
+      of leaving a toxic relationship. Bass, guitar solos, and harmonies enrich the track, 
+      adding emotional depth and musical sophistication. 
+    </p>
+
+    <p>
+      Collaboration with Christopher Evan enhanced the song’s instrumentation and vocal 
+      harmonies, turning the initial plane-written idea into a fully realized track. 
+      Overall, Bye Bye Lai combines storytelling, musical craftsmanship, and emotional 
+      honesty, making it a standout reflection on betrayal, love lost, and personal strength. 
+    </p>
+    
+    </div>
+
+      <a href="songs.html" class="back-link">← Back to Songs</a>
+    </div>
+  </body>
+
+</html>
