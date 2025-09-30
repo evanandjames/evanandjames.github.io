@@ -43,18 +43,15 @@
         background: #c22424;
         color: #fff;
       }
-            @media (max-width: 600px) {
+      @media (max-width: 600px) {
         .navbar-content {
-            flex-wrap: nowrap;           /* keep everything on one line */
-            justify-content: space-between; /* spread links across */
-            overflow-x: auto;            /* allow horizontal scroll if necessary */
-            padding: 0 10px;             /* reduce side padding */
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
         }
-
         .nav-link {
-            padding: 6px 10px;           /* smaller padding */
-            font-size: 0.9em;            /* smaller text */
-            white-space: nowrap;          /* prevent breaking onto 2 lines */
+          padding: 6px 10px;
+          font-size: 1em;
         }
       }
       .top-section {
