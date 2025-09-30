@@ -232,17 +232,33 @@
         background: #c22424;
         color: #fff;
       }
-        @media (max-width: 600px) {
-      .navbar-content {
-        flex-wrap: wrap;        /* allow links to move to the next line */
-        justify-content: center; /* center links on small screens */
-        gap: 10px;               /* spacing between wrapped links */
-      }
+       @media (max-width: 600px) {
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
 
-      .nav-link {
-        padding: 6px 10px;       /* smaller padding on mobile */
-        font-size: 1em;          /* slightly smaller font */
-      }
+  .nav-links.show {
+    display: flex;
+  }
+
+  /* Adjust link styles for vertical layout */
+  .nav-link {
+    padding: 12px 20px;       /* taller for touch friendliness */
+    width: 90%;               /* full-ish width of navbar container */
+    text-align: center;       /* center text in the button */
+    border-radius: 8px;       /* round corners, smaller than desktop */
+  }
+
+  .nav-link:hover {
+    background: #c22424;      /* same red on hover/tap */
+    color: #fff;
+  }
+}
     }
 
       /* Section IDs for navigation */
@@ -250,6 +266,39 @@
       .events-section { scroll-margin-top: 60px; }
       .about-section { scroll-margin-top: 60px; }
       .contact-section { scroll-margin-top: 60px; }
+
+      .hamburger {
+  display: none;          /* hidden on desktop */
+  font-size: 2em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .hamburger {
+    display: block;
+    order: 2;              /* make sure it's on the right */
+    margin-left: auto;
+  }
+
+  .navbar-content {
+    display: none;        /* hide links by default on mobile */
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-content.show {
+    display: flex;        /* show links when active */
+  }
+
+  .nav-link {
+    padding: 12px 0;      /* spacing for mobile menu */
+  }
+}
     </style>
     
     <!-- Google Fonts -->
@@ -261,6 +310,7 @@
 
   <body>
     <nav class="navbar">
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
       <div class="navbar-content">
         <a href="#home" class="nav-link">Home</a>
         <a href="#events" class="nav-link">Events</a>
@@ -404,6 +454,11 @@
     <button type="submit" class="send-btn" style="font-family:'Nunito', sans-serif;">Send</button>
   </div>
 </form>
-    
+    <script>
+  function toggleMenu() {
+    const nav = document.querySelector('.navbar-content');
+    nav.classList.toggle('show');
+  }
+</script>
   </body>
 </html>
