@@ -44,11 +44,32 @@
         color: #fff;
       }
       @media (max-width: 600px) {
-        .navbar-content {
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 10px;
-        }
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  /* Adjust link styles for vertical layout */
+  .nav-link {
+    padding: 12px 20px;       /* taller for touch friendliness */
+    width: 90%;               /* full-ish width of navbar container */
+    text-align: center;       /* center text in the button */
+    border-radius: 8px;       /* round corners, smaller than desktop */
+  }
+
+  .nav-link:hover {
+    background: #c22424;      /* same red on hover/tap */
+    color: #fff;
+  }
+}
         .nav-link {
           padding: 6px 10px;
           font-size: 1em;
