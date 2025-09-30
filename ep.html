@@ -74,7 +74,6 @@
           padding: 6px 10px;
           font-size: 1em;
         }
-      }
       .top-section {
           background-color: #E4C58A;
           padding-top: 60px;
@@ -168,12 +167,53 @@
         margin: 50px 0;              /* spacing above and below */
         width: 100%;                 /* full width */
         }   
-            
+        .hamburger {
+  display: none;        /* hide on desktop */
+  font-size: 2em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  margin-left: auto;    /* push to right */
+}
 
+/* Remove focus outline */
+.hamburger:focus {
+  outline: none;
+  color: #000;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .hamburger {
+    display: block;     /* show hamburger on mobile */
+  }
+
+  .navbar-content {
+    display: none;      /* hide links by default */
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .navbar-content.show {
+    display: flex;      /* show when active */
+  }
+
+  .nav-link {
+    padding: 12px 0;    /* vertical spacing for mobile menu */
+    width: 100%;
+  }
+}
+        
     </style>
   </head>
   <body>
     <nav class="navbar">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
       <div class="navbar-content">
         <a href="index.html#home" class="nav-link">Home</a>
         <a href="index.html#events" class="nav-link">Events</a>
@@ -188,6 +228,7 @@
 
     <div class="top-section">
         <div class="page-content">
+            <br>
             <h1>Endless Possibilities (Album)</h1>
             <p class="release-date">Released July 27, 2025</p>
 
@@ -659,6 +700,12 @@
 
       <a href="songs.html" class="back-link">← Back to Songs</a>
     </div>
+    <script>
+function toggleMenu() {
+  const nav = document.querySelector('.navbar-content');
+  nav.classList.toggle('show');
+}
+</script>
   </body>
 
 </html>
