@@ -43,25 +43,24 @@
         background: #c22424;
         color: #fff;
       }
-      @media (max-width: 600px) {
+            @media (max-width: 600px) {
         .navbar-content {
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 10px;
+            flex-wrap: nowrap;           /* keep everything on one line */
+            justify-content: space-between; /* spread links across */
+            overflow-x: auto;            /* allow horizontal scroll if necessary */
+            padding: 0 10px;             /* reduce side padding */
         }
+
         .nav-link {
-          padding: 6px 10px;
-          font-size: 1em;
+            padding: 6px 10px;           /* smaller padding */
+            font-size: 0.9em;            /* smaller text */
+            white-space: nowrap;          /* prevent breaking onto 2 lines */
         }
       }
       .top-section {
           background-color: #E4C58A;
           padding-top: 60px;
       }
-      @media (max-width: 600px) {
-    .top-section {
-        padding-top: 120px; /* navbar may be taller when wrapped */
-    }
       .song-section {
             background-color: #fff8eb; /* or any color you like */
             padding: 10px 0;           /* vertical padding */
