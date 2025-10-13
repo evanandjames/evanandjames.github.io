@@ -300,6 +300,23 @@
     padding: 12px 0;      /* spacing for mobile menu */
   }
 }
+.logo-box {
+    display: block; 
+    background: rgba(110, 25, 25, 1); /* dark red */
+    padding: 20px; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: fit-content; /* shrink to logo size */
+    margin: 0 auto;     /* centers the div */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .logo-box {
+        max-width: 80%;       /* max 90% of screen width */
+        padding: 15px;    /* slightly smaller padding on mobile */
+    }
+}
     </style>
     
     <!-- Google Fonts -->
@@ -326,31 +343,10 @@
 		<br>
 		<br>
 		<br>
-       <div class="logo-container" style="
-    display: block; 
-    background: rgba(110, 25, 25);
-    padding: 20px; 
-    border-radius: 20px; 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    width: fit-content;
-    margin: 0 auto;
-">
+      <div class="logo-box">
     <img src="./Logo.png"
         style="width:450px; max-width:90%; height:auto; filter: brightness(0) invert(1); display:block; margin:0 auto;">
 </div>
-
-<style>
-  @media (max-width: 600px) {
-    .logo-container {
-      width: 90%;      /* max width 90% of screen */
-      padding: 15px;   /* slightly smaller padding for mobile */
-    }
-    .logo-container img {
-      width: 100%;     /* logo scales to fit container */
-      max-width: 100%;
-    }
-  }
-</style>
          <!--
         <br>
         <br>
