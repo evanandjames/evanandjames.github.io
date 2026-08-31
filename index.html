@@ -332,10 +332,23 @@
 }
 
 /* Mobile responsiveness */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .logo-box {
-        max-width: 80%;       /* max 90% of screen width */
-        padding: 15px;    /* slightly smaller padding on mobile */
+        width: 80%;
+        max-width: 80%;
+        padding: 15px;
+    }
+
+    .social-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        gap: 12px 10px;
+        text-align: center;
+    }
+
+    .social-links a {
+        text-align: center;
     }
 }
     </style>
