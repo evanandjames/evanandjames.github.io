@@ -340,12 +340,25 @@
     }
 
     .social-links {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        width: 100%;
-        gap: 12px 10px;
-        text-align: center;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 18px;
+    width: 100%;
+}
+
+.social-links a {
+    width: 25%;
+    text-align: center;
+}
+
+.social-links a:nth-child(4) {
+    margin-left: 12.5%;
+}
+
+.social-links a:nth-child(5) {
+    margin-right: 12.5%;
+}
 
     .social-links a {
         text-align: center;
